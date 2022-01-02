@@ -11,6 +11,10 @@
 		9C586439277F98E2006C8E3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C586438277F98E2006C8E3C /* ContentView.swift */; };
 		9C58643B277F98E3006C8E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C58643A277F98E3006C8E3C /* Assets.xcassets */; };
 		9C58643E277F98E3006C8E3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C58643D277F98E3006C8E3C /* Preview Assets.xcassets */; };
+		9C586445277F9958006C8E3C /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C586444277F9958006C8E3C /* Modal.swift */; };
+		9C586447277FA884006C8E3C /* SegundaVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C586446277FA884006C8E3C /* SegundaVista.swift */; };
+		9C586449277FC6E6006C8E3C /* TerceraVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C586448277FC6E5006C8E3C /* TerceraVista.swift */; };
+		9C58644B2781716A006C8E3C /* TabViewVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C58644A2781716A006C8E3C /* TabViewVista.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		9C586438277F98E2006C8E3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C58643A277F98E3006C8E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C58643D277F98E3006C8E3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C586444277F9958006C8E3C /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		9C586446277FA884006C8E3C /* SegundaVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaVista.swift; sourceTree = "<group>"; };
+		9C586448277FC6E5006C8E3C /* TerceraVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerceraVista.swift; sourceTree = "<group>"; };
+		9C58644A2781716A006C8E3C /* TabViewVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewVista.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				9C586436277F98E2006C8E3C /* NavegacionSwiftUIApp.swift */,
 				9C586438277F98E2006C8E3C /* ContentView.swift */,
+				9C586444277F9958006C8E3C /* Modal.swift */,
 				9C58643A277F98E3006C8E3C /* Assets.xcassets */,
 				9C58643C277F98E3006C8E3C /* Preview Content */,
+				9C586446277FA884006C8E3C /* SegundaVista.swift */,
+				9C586448277FC6E5006C8E3C /* TerceraVista.swift */,
+				9C58644A2781716A006C8E3C /* TabViewVista.swift */,
 			);
 			path = NavegacionSwiftUI;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C586439277F98E2006C8E3C /* ContentView.swift in Sources */,
+				9C586445277F9958006C8E3C /* Modal.swift in Sources */,
+				9C58644B2781716A006C8E3C /* TabViewVista.swift in Sources */,
 				9C586437277F98E2006C8E3C /* NavegacionSwiftUIApp.swift in Sources */,
+				9C586449277FC6E6006C8E3C /* TerceraVista.swift in Sources */,
+				9C586447277FA884006C8E3C /* SegundaVista.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
